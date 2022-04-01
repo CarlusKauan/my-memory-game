@@ -1,8 +1,11 @@
+// importação do css
+import './style.css';
+
 // # Função
 function CardGame() {
     return `
-        <article> 
-            CardGame - Salve Malandragem   
+        <article class="card-game"> 
+            <img src="images/alura-pixel.png" alt="Logo da Alura">
         </article>
     `;
 }
