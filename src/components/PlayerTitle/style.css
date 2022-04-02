@@ -1,0 +1,13 @@
+.Player-title{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-family: consolas, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+}
