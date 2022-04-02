@@ -3,7 +3,7 @@ import './style.css';
 
 // # Função
 function CardGame() {
-    return `
+    return /*html */`
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-game"> 
