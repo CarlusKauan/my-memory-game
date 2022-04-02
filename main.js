@@ -8,7 +8,7 @@ import BoardGame from './src/objects/BoardGame/';
 
 // Consumindo a API DOM para manipular elementos HTML
 const $root = document.querySelector("#root")
-const $htmlBoardGame = BoardGame(5);
+const $htmlBoardGame = BoardGame(6);
 const $htmlPlayerTitle = PlayerTitle('Player 1') + PlayerTitle('Player 2')
 // chamando a $root, com insertAdjacent para adicionar um elemento !
 $root.insertAdjacentHTML("beforebegin", $htmlPlayerTitle)
