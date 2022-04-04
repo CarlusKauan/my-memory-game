@@ -3,8 +3,8 @@ import './src/styles/generic/reset.css';
 import './src/styles/elements/base.css';
 
 import CardGame from './src/components/CardGame';
-import BoardGame from './src/objects/BoardGame/';
 import BoardScore from './src/objects/BoardScore';
+import BoardGame from './src/objects/BoardGame';
 
 // Consumindo a API DOM para manipular elementos HTML
 const $root = document.querySelector("#root")
@@ -13,6 +13,6 @@ $root.insertAdjacentHTML(
     "beforeend",
     `
         ${BoardScore()}
-        ${BoardGame(6)}
+        ${BoardGame(2)}
     `
 );
