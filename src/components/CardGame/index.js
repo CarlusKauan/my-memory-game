@@ -2,20 +2,11 @@
 import './style.css';
 
 // # Função
-function CardGame() {
+function CardGame(icon = 'alura-pixel', alt = "Logo da Alura") {
     return /*html */`
-    <div class="flip-card">
-        <div class="flip-card-inner">
-            <div class="flip-card-game"> 
-                <div class="flip-card-front">
-                    <img src="images/alura-pixel.png" alt="Logo da Alura">
-                </div>     
-                <div class="flip-card-back">
-                    <img src="images/alura-pixel.png" alt="Logo Js">
-                </div>
-            </div>
-        </div>
-    </div>
+        <article class="card-game">
+            <img src="images/${icon}.png" alt="${alt}">
+        </article>
     `;
 }
 
