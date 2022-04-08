@@ -7,7 +7,7 @@ function BoardGame(amountCard){
 
     return /*html*/ `
     <section class="board-game">
-       ${ $htmlContent }
+       ${$htmlContent}
     </section>
     `;
 }
