@@ -1,0 +1,10 @@
+.vs-score{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    margin-top: 2px;
+    margin-bottom: 8px;
+    color: var(--color-sandstorm);
+    font-size: 1rem;
+}
