@@ -1,10 +1,8 @@
 import './style.css'
 
-function VsScore(){
+function VsScore(content = 'vs'){
     return /*html*/ `
-    <div class="vs-score">
-        <h3>vs</h3>
-    </div>
+    <span class="vs-player">${content}</span>
     `;
 }
 
