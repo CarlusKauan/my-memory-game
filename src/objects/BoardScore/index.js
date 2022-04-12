@@ -11,7 +11,7 @@ function BoardScore(){
             ${PlayerName('Player1')}
             ${PlayerScore(2)}
             ${VsScore()}
-            ${PlayerScore(1)}
+            ${PlayerScore(2)}
             ${PlayerName('Player2')}
         </header>
     `;

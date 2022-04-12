@@ -1,12 +1,12 @@
-import './style.css'
+import "./style.css"
 
 function PlayerScore(points = 0) {
     return /*html*/ `
-        // data pegar o valor !
-        <ol data-points="${points}">
-            <li class="player-score-bg">1</li>
-            <li class="player-score-bg-green">2</li>
-            <li class="player-score-bg-green">3</li>
+        <!--data pega o valor do parametro ! -->
+        <ol class="player-score" data-points="${points}">
+            <li class="pointer">1</li>
+            <li class="pointer">2</li>
+            <li class="pointer">3</li>
         </ol>
     `;
 }

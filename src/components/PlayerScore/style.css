@@ -1,19 +1,33 @@
-/* .player-score {
-    margin-left: 10px;
-    margin-right: 10px;
+.player-score {
+    display: flex;
+    gap: 1px;
+    box-sizing: border-box;
+    padding: 1px;
     width: 50px;
     height: 20px;
-    border: 3px solid var(--color-fiery-rose);
+    background-color: var(--color-floral-white);
+    border: 2px solid var(--color-fiery-rose);
 }
 
-.player-score-bg {
-    padding: 8px;
-    border: 2px solid var(--color-floral-white);
-    background-color: var(--color-old-silver)
+.player-score > .pointer{
+    background-color:var(--color-old-silver);
+    text-indent: -9999999px;
+    overflow: hidden;
+    width: 33%;
 }
 
-.player-score-bg-green {
-    padding: 8px;
-    border: 2px solid var(--color-floral-white);
-    background-color: var(--color-mantis)
-} */
+.player-score[data-points="1"] > .pointer:first-child {
+    background-color: var(--color-mantis);
+}
+
+.player-score[data-points="2"]{
+    flex-direction: row-reverse;
+}
+
+.player-score[data-points="2"] > .pointer:nth-child(n+2) {
+    background-color: var(--color-mantis);
+}
+
+.player-score[data-points="3"] > .pointer{
+    background-color: var(--color-mantis);
+}
