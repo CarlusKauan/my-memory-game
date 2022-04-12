@@ -1,10 +1,11 @@
 import './style.css'
 
-function IconArrowDown(){
+function IconArrowDown(currentPlayer = 1){
     return /*html*/ `
-        <div class="icon-arrow-down">
-            <img src="../../../images/IconArrowDown.png">
-        </div>
+        <img 
+        data-currentPlayer = "${currentPlayer}"
+        src="../../../images/IconArrowDown.png" 
+        class="arrow-down">
     `;
 }
 

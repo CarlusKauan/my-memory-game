@@ -1,3 +1,11 @@
-img .icon-arrow-down{
+.arrow-down{
     /* desenvolvimento */
+    position: absolute;
+    top: 5px;
+    transform: translateX(-38px);
+    transition: transform 200ms ease-in-out;
+}
+
+.arrow-down[data-currentPlayer="2"] {
+    transform: translateX(38px);
 }

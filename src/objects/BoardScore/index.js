@@ -6,14 +6,14 @@ import VsScore from '../../components/VsScore';
 
 function BoardScore(){
     return /*html*/ `
-        ${IconArrowDown()}
-        <header class="score-board">
-            ${PlayerName('Player1')}
-            ${PlayerScore(2)}
-            ${VsScore()}
-            ${PlayerScore(2)}
-            ${PlayerName('Player2')}
-        </header>
+    <header class="score-board">
+        ${IconArrowDown(2)}
+        ${PlayerName('Player1')}
+        ${PlayerScore(2)}
+        ${VsScore()}
+        ${PlayerScore(2)}
+        ${PlayerName('Player2')}
+    </header>
     `;
 }
 
